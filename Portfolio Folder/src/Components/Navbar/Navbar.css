@@ -1,0 +1,65 @@
+.navdiv {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  /* position: -webkit-sticky; */
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background: white;
+  padding-top: 1rem;
+  width: 90vw;
+  justify-content: space-between;
+}
+
+.navh3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navul {
+  list-style: none;
+  display: flex;
+  align-content: flex-end;
+  padding-top: 10px;
+}
+
+.navul li {
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  padding-left: 3vw;
+}
+
+.navul a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.navul a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.navul a:hover::after {
+  width: 100%;
+}
+
+/* .navul a:hover,
+.resume a:hover {
+  border-bottom: 3px solid;
+} */
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+}
